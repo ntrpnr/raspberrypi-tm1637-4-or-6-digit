@@ -30,7 +30,7 @@ SOFTWARE.
 
 from time import sleep
 
-from wiringpi import wiringPiSetupGpio, pinMode, digitalRead, digitalWrite, GPIO
+from wiringpi import wiringPiSetupGpio, pinMode, digitalRead, digitalWrite, GPIO, gpioClockSet
 
 wiringPiSetupGpio()
 
